@@ -1,0 +1,677 @@
+
+
+
+
+<!doctype html>
+<html lang="fa" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="کپی کردن">
+      
+        <meta name="lang:clipboard.copied" content="کپی شد">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="False">
+      
+        <meta name="lang:search.pipeline.trimmer" content="False">
+      
+        <meta name="lang:search.result.none" content="سندی یافت نشد">
+      
+        <meta name="lang:search.result.one" content="1 سند یافت شد">
+      
+        <meta name="lang:search.result.other" content="# سند یافت شد">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>فصل پنجم - تفکر پایتونی</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="rtl">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        پرش به محتویات
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="تفکر پایتونی" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              تفکر پایتونی
+            </span>
+            <span class="md-header-nav__topic">
+              
+                فصل پنجم
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="جستجو" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            برای شروع جستجو تایپ کنید
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="تفکر پایتونی" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    تفکر پایتونی
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="مقدمه" class="md-nav__link">
+      مقدمه
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-01/" title="فصل اول" class="md-nav__link">
+      فصل اول
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-02/" title="فصل دوم" class="md-nav__link">
+      فصل دوم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-03/" title="فصل سه" class="md-nav__link">
+      فصل سه
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-04/" title="فصل چهارم" class="md-nav__link">
+      فصل چهارم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="فصل پنجم" class="md-nav__link md-nav__link--active">
+      فصل پنجم
+    </a>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-06/" title="فصل ششم" class="md-nav__link">
+      فصل ششم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-07/" title="فصل ۷" class="md-nav__link">
+      فصل ۷
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-08/" title="فصل ۸" class="md-nav__link">
+      فصل ۸
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-09/" title="فصل ۹" class="md-nav__link">
+      فصل ۹
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-10/" title="فصل ۱۰" class="md-nav__link">
+      فصل ۱۰
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-11/" title="فصل 11" class="md-nav__link">
+      فصل 11
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-12/" title="فصل ۱۲" class="md-nav__link">
+      فصل ۱۲
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-13/" title="فصل 13" class="md-nav__link">
+      فصل 13
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-14/" title="فصل ۱۴" class="md-nav__link">
+      فصل ۱۴
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-15/" title="فصل پانزدهم" class="md-nav__link">
+      فصل پانزدهم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-16/" title="فصل ۱۶" class="md-nav__link">
+      فصل ۱۶
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-17/" title="فصل هفدهم" class="md-nav__link">
+      فصل هفدهم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-18/" title="فصل ۱۸ - ارث‌بری" class="md-nav__link">
+      فصل ۱۸ - ارث‌بری
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-19/" title="فصل ۱۹" class="md-nav__link">
+      فصل ۱۹
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">فصل پنجم</h1>
+<p><strong>شرطی و بازگشتی</strong></p>
+<p>عملگر ماژول (Modulus)</p>
+<p>عملگر ماژول بر روی اعداد صحیح (Integers) کار می کند و زمانی که عملوند
+اول تقسیم بر عملگر دوم شد، باقی مانده را بر می گرداند.در Python عملگر
+ماژول نشانه ی "% "است. نحو آن مانند بقیه عملگر هاست.</p>
+<p>&gt;&gt;&gt; quotient = 7/3\
+&gt;&gt;&gt; print quotient\
+2\
+&gt;&gt;&gt; remainder =7%3\
+&gt;&gt;&gt; print remainder\
+1</p>
+<p>بنابراین 7 تقسیم بر 3 دارای خارج قسمت 2 و باقی مانده ی 1 است.</p>
+<p>عملگر ماژول بسیار کاربردی است. به عنوان مثال شما می توانید بررسی کنید که
+آیا عددی بر عدد دیگر تقسیم پذیر است یا خیر. در صورتی که x%y برابر با صفر
+شود در این صورت x برy تقسیم پذیر است.</p>
+<p>همچنین، شما می توانید راست ترین رقم از یک عدد را استخراج نمایید. به
+عنوان مثال x%10 کم ارزش ترین رقم بر مبنا ی 10 را بر می گرداند. به طر
+مشابه x%100 2 رقم کم ارزش را بر می گرداند.</p>
+<p>عبارت بولی (Boolean Expression)</p>
+<p>یک عبارات بولی عبارتی است که یا درست(true) است و یا غلط(false). مثال زیر
+از عملگر == استفاده می کند ، که دو عملوند را مقایسه کرده و در صورت برابر
+بودن مقدار true و در غیر اینصورت false را بر می گرداند.</p>
+<p>&gt;&gt;&gt; 5==5\
+True\
+&gt;&gt;&gt; 5==6\
+False</p>
+<p>True و False مقادیر خاص متعلق به type bool (نوع بول) هستند; آنها رشته
+نیستند.</p>
+<p>&gt;&gt;&gt; type(True)\
+&lt;type ‘bool’&gt;\
+&gt;&gt;&gt; type(False)\
+&lt;type ‘bool’&gt;</p>
+<p>عملگر == یکی از عملگرهای رابطه ای است(relational operators); بقیه این
+عملگر ها عبارت اند از:</p>
+<p>x!=y # نیست y برابر x\
+x &gt;y # است y بزرگتر از x\
+x&lt;y# است y کوچکتر از x\
+x&gt;=y# است y بزرگتر یا مساوی از x\
+x&lt;=y# است y کوچکتر یا مساوی از x</p>
+<p>با اینکه ممکن است عملیات های ذکر شده برای شما آشنا باشند، نشانه های
+Python از نشانه ی های ریاضیاتی متفاوت هستند.یکی از خطا های رایج استفاده
+از تک علامت مسای “=” به جای دو مساوی "==" است. به یاد داشته باشید که "="
+یک عملگر انتسابی و "==" یک عملگر رابطه ای است. عملگر های مانند "&gt;=" و
+یا "&lt;=" وجود ندارند.</p>
+<p>عملگر های منطقی (Logical Operators)</p>
+<p>3 عملگر منطقی وجود دارد: and ، orو not . معنای (semantic) این عملگر ها
+شبیه معنای آن ها در زبان انگلیسی است. به عنوان مثال x&gt;0 and x&lt;10
+صحیح است تنها در صورتی که x بزرگتر از 0 و کوچکتر از 10 باشد.</p>
+<p>N%2==0 or n%3==0 هنگامی که هر یک از شروط آن صحیح باشد،زمانی که x بر 2 و
+یا 3 بخش پذیر است، صحیح است.</p>
+<p>عملگر not یک عبارت بولی را منفی می کند، بنابراین not (x&gt;y) صحیح است
+اگر x&gt;y نا صحیح باشد که در این حالت x کوچکتر و یا مساوی y است.</p>
+<p>به طور دقیق، عملوند های عملگر های منطقی باید عبارات بولی باشند، اما
+پیاتون آنچنان سخت گیر نیست! هر مقدار غیر صفر به عنوان یک "true" تفسیر می
+شود.</p>
+<p>&gt;&gt;&gt; 17 and True\
+True</p>
+<p>این انعطاف پذیری می تواند مفید باشد، اما پیچیدگی های خاصی وجود دارد که
+ممکن است باعث سردرگمی شوند. ممکن است بخواید از آنها دوری کنید (بغیر از
+هنگامی که بدانید در حال انجام چه کاری هستید!)</p>
+<p>اجرای شرطی (Conditional Execution)</p>
+<p>برای نوشتن یک برنامه ی کارا، تقریبا همیشه نیازمند توانایی بررسی شروط و
+تغییر رفتار برنامه بر اساس آن ها هستیم. جملات شرطی این توانایی را به ما
+می دهند. ساده ترین حالت، عبارت if است:</p>
+<p>If x&gt;0:\
+print ‘x is positive’</p>
+<p>عبارت بولی بعد از if شرط (condition) نامیده می شود. اگر صحیح باشد، جمله
+ی فاصله دار شده اجرا می شود. در غیر این صورت، هیچ چیز اتفاق نمی افتد.</p>
+<p>عبارت if ساختاری مشابه با تعریف تابع دارد: یک سر تیتر(header) با یک بدنه
+ی فاصه دار شده. جملاتی شبیه به این را جملات مرکب (compound statements)
+می نامند.</p>
+<p>محدودیتی بر تعداد جملاتی که می توانند در بدنه قرار گیرند وجود ندارد، اما
+وجود حداقل یک جمله اجباری است. گاها، داشتن بدنه ای بدون جمله کاربردی است
+(معمولا به عنوان مکانی برای کدی که هنوز ننوشته اید). در این حالت از
+عبارت pass استفاده می کنید، که در واقع هیچ کاری انجام نمی دهد :</p>
+<p>if x &lt; 0 :\
+pass#need to handle negative values!</p>
+<p>اجرای جایگزین (alternative execution)</p>
+<p>دومین حالت عبارت if ، اجرای جایگزین است، که در آن 2 احتمالی که شرط اجرای
+آن را مشخص می نماید وجود دارد. ساختاری نحوی آن به صورت زیر است:</p>
+<p>if x%2 == 0:\
+print ‘x is even’\
+else:\
+print ‘x is odd’</p>
+<p>در صورتی که باقی مانده ی x تقسیم بر 2 برابر صفر باشد، ما می دانیم که x
+زوج است، و برنامه پیغامی مبنی بر زوج بودن آن را نمایش می دهد. در صورتی
+که شرط اشتباه باشد، بخش دوم عبارت اجرا می شود.از آنجایی که شرط باید یکی
+از حالات صحیح و یا غلط باشد، دقیقا یکی از جایگزین ها اجرا می شود. به
+جایگزین ها شاخه ها (branches) نیز گفته می شود، زیرا آن ها شاخه های در
+جریان اجرا می باشند.</p>
+<p>شروط زنجیر وار (chained conditionals)</p>
+<p>گاها بیش از 2 احتمال و 2 شاخه مورد نیاز است. یکی از راه های نمایش محاسبه
+ی این چنینی شروط زنجیر وارد است:</p>
+<p>if x &lt; y:\
+print ‘x is less than y’\
+elif x &gt; y:\
+print ‘x is greater than y’\
+else:\
+print ‘x and y are eqaul’</p>
+<p>elif مخفف else if است. بار دیگر، فقط یکی از شاخه ها اجرا می شود. در
+تعداد عبارات elif محدودیتی وجود ندارد. در صورتی که قسمت else ای وجود
+دارد، باید حتما در پایان باشد، اما لزومی بر تنها یکی بودن آن وجود ندارد.</p>
+<p>if choice == ‘a’:\
+draw_a()\
+elif choice == ‘b’:\
+draw_b()\
+elif choice == ‘c’:\
+draw_c()</p>
+<p>هر یک از شروط به ترتیب قرار گیری بررسی می شوند. در صورتی که اولین شرط
+غلط باشد، دومین شرط بررسی می شود، در به همین ترتیب تا آخر بررسی می شوند.
+در صورتی که یکی از شروط درست باشد، شاخه ی متناظر اجرا شده، و جمله به
+پایان می رسد. حتی اگر بیش از یک عبارت درست باشد تنها اولین شاخه ی صحیح
+اجرا می شود.</p>
+<p>شروط تو در تو (Nested Conditionals)</p>
+<p>یک شرط می توند درون شرطی دیگر جایگزاری شود. ما می توانیم یک مثال تقسیم
+بر 3 بخش را مانند زیر بنوسیسم :</p>
+<p>if x == y:\
+print ‘x and y are equal’\
+else:\
+if x &lt;y :\
+print ‘x is less than y’\
+else :\
+print ‘x is greater than y’</p>
+<p>شرط خارجی تر متشکل از 2 شاخه است. اولین شاخه شامل یک عبارت ساده است.
+شاخه ی دوم شامل یک عبارت if دیگر است، که برای خود 2 شاخه ی دیگر دارد.
+این 2 شاخه، هر دو شامل یک عبارت ساده اند. با این حال می توانستند خود
+شامل عبارات شرطی باشند.</p>
+<p>اگر چه فاصله دار شدن عبارت باعث خوانا شدن ساختار می گردد، شروط تو در تو
+به سرعت خوانایی خود را از دست می دهند. به طور کلی، دوری کردن از آنها در
+صورت توانایی ایده ی مناسبی است.</p>
+<p>عملگر های منطقی معمولا راحی برای سادگی شروط تو در تو ارائه می کنند. به
+عنوان مثال، ما می توانیم کد زیر را با یک شرط باز نویسی کنیم:</p>
+<p>if 0 &lt; x:\
+if x &lt;10:\
+print ‘x is a positive single-digit number.’</p>
+<p>عبارت print تنها زمانی اجرا می شود که از هر دو شرط درست باشند، بنا بر
+این ما می توانی همین اثر را از عملگر and بگیریم:</p>
+<p>if 0 &lt; x and x &lt; 10 :\
+print ‘x is a positive single-digit number.’</p>
+<p>\
+بازگشت (Recursion)</p>
+<p>فراخوانی یک تابع توسط تابعی دیگر مجاز است; همچین برای یک تابع فراخوانی
+خودش نیز مجاز می باشد. ممکن است دلیل خوب بودن این کار واضح نباشد، اما
+مشخص شده است که این کار خارق العاده ترین چیزی است که یک برنامه می تواند
+انجام دهد. به عنوان مثال به تابع زیر دقت نمایید :</p>
+<p>def countdown(n):\
+if n &lt;= 0:\
+print ‘blastoff’\
+else:\
+print n\
+countdown(n-1);<span id="anchor"></span>def countdown(n):\
+if n &lt;= 0:\
+print ‘blastoff’\
+else:\
+print n\
+countdown(n-1);</p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../chapter-04/" title="فصل چهارم" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  قبلی
+                </span>
+                فصل چهارم
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../chapter-06/" title="فصل ششم" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  بعدی
+                </span>
+                فصل ششم
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>

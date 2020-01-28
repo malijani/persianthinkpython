@@ -1,0 +1,712 @@
+
+
+
+
+<!doctype html>
+<html lang="fa" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="کپی کردن">
+      
+        <meta name="lang:clipboard.copied" content="کپی شد">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="False">
+      
+        <meta name="lang:search.pipeline.trimmer" content="False">
+      
+        <meta name="lang:search.result.none" content="سندی یافت نشد">
+      
+        <meta name="lang:search.result.one" content="1 سند یافت شد">
+      
+        <meta name="lang:search.result.other" content="# سند یافت شد">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>فصل ۷ - تفکر پایتونی</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="rtl">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        پرش به محتویات
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="تفکر پایتونی" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              تفکر پایتونی
+            </span>
+            <span class="md-header-nav__topic">
+              
+                فصل ۷
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="جستجو" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            برای شروع جستجو تایپ کنید
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="تفکر پایتونی" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    تفکر پایتونی
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="مقدمه" class="md-nav__link">
+      مقدمه
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-01/" title="فصل اول" class="md-nav__link">
+      فصل اول
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-02/" title="فصل دوم" class="md-nav__link">
+      فصل دوم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-03/" title="فصل سه" class="md-nav__link">
+      فصل سه
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-04/" title="فصل چهارم" class="md-nav__link">
+      فصل چهارم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-05/" title="فصل پنجم" class="md-nav__link">
+      فصل پنجم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-06/" title="فصل ششم" class="md-nav__link">
+      فصل ششم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="فصل ۷" class="md-nav__link md-nav__link--active">
+      فصل ۷
+    </a>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-08/" title="فصل ۸" class="md-nav__link">
+      فصل ۸
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-09/" title="فصل ۹" class="md-nav__link">
+      فصل ۹
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-10/" title="فصل ۱۰" class="md-nav__link">
+      فصل ۱۰
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-11/" title="فصل 11" class="md-nav__link">
+      فصل 11
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-12/" title="فصل ۱۲" class="md-nav__link">
+      فصل ۱۲
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-13/" title="فصل 13" class="md-nav__link">
+      فصل 13
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-14/" title="فصل ۱۴" class="md-nav__link">
+      فصل ۱۴
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-15/" title="فصل پانزدهم" class="md-nav__link">
+      فصل پانزدهم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-16/" title="فصل ۱۶" class="md-nav__link">
+      فصل ۱۶
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-17/" title="فصل هفدهم" class="md-nav__link">
+      فصل هفدهم
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-18/" title="فصل ۱۸ - ارث‌بری" class="md-nav__link">
+      فصل ۱۸ - ارث‌بری
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../chapter-19/" title="فصل ۱۹" class="md-nav__link">
+      فصل ۱۹
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">فصل ۷</h1>
+<p>پیمایش</p>
+<p>این فصل در مورد پیمایش است که به معنی توانایی اجرای مکرر یک بلاک از
+دستورات است. نوعی از پیمایش را در بخش ۵.۸ هنگام استفاده از توابع بازگشتی
+دیدیم. همچنین نوع دیگری را در بخش ۴.۲ هنگام استفاده از حلقه for دیدیم.
+در این بخش می‌خواهیم نوعی دیگر از پیمایش را ، با استفاده از گزاره while
+ببینیم. اما اول می‌خواهم مقداری در مورد تخصیص متغیر صحبت کنم.</p>
+<p>۷.۱ باز تخصیص</p>
+<p>همان‌طور که ممکن است متوجه شده باشید،‌ این قانونی است که بیشتر از یک
+تخصیص به متغیر مشابه داشته باشیم. تخصیص جدید مقدار جدیدی را به متغیر
+موجود ارجاع می دهد. ( و ارجاع مقدار قدیمی را متوقف می کند.)</p>
+<p>&gt;&gt;&gt; x = 5</p>
+<p>&gt;&gt;&gt; x</p>
+<p>5</p>
+<p>&gt;&gt;&gt; x = 7</p>
+<p>&gt;&gt;&gt; x</p>
+<p>7</p>
+<p>اولین باری که ما مقدار x را نمایش دادیم مقدارش ۵ بود؛ و دومین بار مقدار
+آن ۷ است.</p>
+<p>شکل ۷.۱ از طریق دیاگرام وضعیت، چگونگی باز‌تخصیص را نشان می دهد.</p>
+<p>در این جا می‌خواهم به یک یک اشتباه رایج اشاره کنم . به دلیل اینکه پایتون
+از یک نشان برابری (=) برای تخصیص استفاده می کند، وسوسه انگیز است که که
+عبارتی مثل a = b را با معنای ریاضیاتی «برابری» تفسیر کنیم ؛ این ادعا به
+این معناست که a و b برابند. اما این تفسیر نادرست است.</p>
+<p>ابتدا، برابری یک مفهوم دو‌طرفه است اما تخصیص نیست. برای مثال، در
+ریاضیات، اگر a =۷ باشد بنابر این a = ۷ است. اما در پایتون جمله a= ۷
+قانونی است و ۷=a نیست.</p>
+<p>همچنین در ریاضیات ،یک گزاره برابری درست یا نا درست برای تمام دوران است.
+حال اگر a=b باشد بنابراین a همیشه برابر b خواهد بود. در پایتون ، یک جمله
+تخصیص می‌تواند دو متغیر را برابر سازد اما اینگونه نمی‌تواند :</p>
+<hr />
+<hr />
+<p>&gt;&gt;&gt; a = 5</p>
+<p>&gt;&gt;&gt; b = a</p>
+<p>&gt;&gt;&gt; a = 3</p>
+<p>&gt;&gt;&gt; b</p>
+<p>5</p>
+<p>خط سوم مقدار متغیر a را تغییر می‌دهد اما مقدار متغیر b را تغییر نمی
+دهد،‌بنابراین آن‌ها دیگر برابر نیستند.</p>
+<p>بازتخصیص متغیر اکثراً مفید است،‌اما باید با احتیاط از آن استفاده کنید.
+اگر مقدار یک متغیر مکرراً تغییر کند،‌ می‌تواند خواندن و اشکال‌زدایی کد
+را سخت کند.</p>
+<p>۷.۲ بروزرسانی متغیر</p>
+<p>نوع پرکاربردی از باز‌تخصیص بزوررسانی است، که در آن مقدار جدید متغیر
+وابسته است به مقدار قدیمی آن.</p>
+<p>&gt;&gt;&gt; x= x + 1</p>
+<p>این یعنی « مقدار متغیر x را بگیر،‌یک واحد به آن اضافه کن، سپس مقدار x را
+با مقدار جدید بروزآور رسانی کن‌»</p>
+<p>اگر شما تلاش کنید تا متغیری را بروز رسانی کنید که وجود ندارد، شما خطایی
+در یافت خواهید کرد، به این خاطر که پایتون سمت راست محاسبه می‌کند قبل از
+آنکه به x مقداری تخصیص دهد.</p>
+<p>&gt;&gt;&gt; x = x + 1</p>
+<p>NameError: name 'x' is not defined</p>
+<p>قبل از اینکه متغیر را بروز رسانی کنید شما باید آن را مقداردهی اولیه
+کنید، اینکار معمولاً با یک تخصیص ساده اتفاق می افتد:</p>
+<p>&gt;&gt;&gt; x = 0</p>
+<p>&gt;&gt;&gt; x = x + 1</p>
+<p>بروزرسانی یک متغیر با اضافه کردن یک واحد را افزایش؛‌ و کم نمودن یک واحد
+را کاهش می گویند.</p>
+<p>۷.۳ دستور while</p>
+<p>کامپیوتر ها معمولاً برای انجام وظایف پرتکرار خودکار استفاده می شوند.
+تکرار کردن وضایف هماند یا وظایف مشابه بدون ایجاد اشکال و اشتباه چیزی است
+که کامپیوتر ها عالی انجام می‌دهند و افراد در آن ضعیف هستند. در یک برنامه
+کامپیوتری، تکرار<a href="repetition">^1</a> را پیمایش<a href="iteration">^2</a> هم می نامند.</p>
+<p>همچنین ما دو تابع شمارش معکوس و چاپ n مرتبه را دیده ایم. در این روش
+تکرار از بازگشتی استفاده شده بود. به دلیل اینکه پیمایش بسیار معمول
+است،‌پایتون ویژگی‌های زبانی را مهیا ساخته تا آن را آسان‌تر کند.یکی از
+آن‌ها دستور for است که در بخش ۴.۲ دیدیم. بعداً به آن باز خواهیم گشت.</p>
+<p>یکی دیگر از آن های دستور while است. در اینجا نسخه از شمارش معکوس آورده
+شده است که در آن از دستور while استفاده شده است.</p>
+<p>Def countdown (n):</p>
+<p>while n &gt; 0:</p>
+<p>print (n)</p>
+<p>n = n-1</p>
+<p>print ('Blastoff')</p>
+<p>شما می‌توانید دستور while را همانگونه که انگلیسی را می‌خوانید،‌بخوانید.
+این بدین معناست که «هنگامی که n از صفر بزرگ‌تر است، مقدار n را نمایش بده
+سپس یک واحد از آن کم کن. زمانی که به صفر رسیدی ، عبارت Blastoff را نمایش
+بده. »</p>
+<p>به طور عمومی، روند اجرای دستور while اینگونه است:</p>
+<p>۱- ارزیابی اینکه شرط درست یا نادرست است.</p>
+<p>۲- اگر برقرار نیست از گزاره while خارج شود و بقیه دستورات را اجرا نماید.</p>
+<p>۳- اگر شرط صحیح است،‌ دستورات را اجرا کند و به مرحله اول برود.</p>
+<p>این مدل از دستورات حلقه<a href="loop">^3</a> خوانده می‌شود چرا که مرحله سوم حلقه آن را به
+ابتدای آن بر می گرداند.</p>
+<p>بدنه حلقه باید مقدار یک یا چند متغیر را تغییر دهد تا در نهایت شرط مقدار
+ناصحیح پیدا کند و حلقه بسته شود. در غیر اینصورت حقله برای همیشه تکرار
+خواهد شد، که به آن حلقه بی نهایت[^4] گفته می شود. منبع نامحدود از سرگرمی
+برای دانشمندان کامپیوتر دستور العمل های روی شامپو است</p>
+<p>"شامپو را روی سر بمالید , با آب شستشو دهید , دوباره تکرار کنید" در حقیقت
+یک حلقه ی بینهایت است.</p>
+<p>در مثاال شمارنده معکوس، می‌توانیم بسته شدن حلقه را اثبات کنیم : اگر n
+صفر یا منفی شود، حلقه هرگز اجرا نخواهد شد. در غیر اینصورت، هر بار مقدار
+n درون حلقه کمتر می‌شود تا در نهایت صفر شود.</p>
+<p>برای برخی از حلقه ها بیان آن آان نیست. برای مثال :</p>
+<p>def sequence (n):</p>
+<p>while n != 1:</p>
+<p>print(n)</p>
+<p>if n%2 == 0:# n is even</p>
+<p>n = n /2</p>
+<p>else:# n is odd</p>
+<p>n = n*3+1</p>
+<p>شرظ برای این حلقه این است که n !=1، پس حلقه ادامه خواد یافت تا زمانی که
+n برابر ۱ شود، که شرط آن ناصحیح شود.</p>
+<p>هر بار در وسط حلقه ، برنامه مقدار n را خروجی می‌دهد سپس بررسی می‌کند که
+زوج یا فرد است. اگر زوج باشد بر ۲ تقسیم می شود. اگر فرد باشد، مقدار n با
+n*3+1 جایگزین می شود. برای مثال،‌اگر ورودی دنباله ۳ باشد، نتیجه مقدار n
+به ترتیب برابر ۳،۱۰،۵،۱۶،۸،۴،۲،۱ می شود.</p>
+<p>به دلیل اینکه مقدار n گاهی زیاد و گاهی کم می شود، اثبات روشنی برای اینکه
+چه زمانی ۱ خواهد شد ، یا برنامه بسته می‌شود وجود ندارد. برای برخی مقدار
+های خاص n ، می‌توانیم پایان پذیری را اثبات کنیم. برای مثال،‌ اگر مقدار
+شروع کننده یکی از مضارب ۲ باشد، مقدار n هر بار در حلقه زوج خواهد بود تا
+زمانی که برابر ۱ شود. مثال قبلی با چنین دنباله ای پایان می‌یابد اگر با
+۱۶ شروع شود.</p>
+<p>سؤال سخت این است که آیا می‌توانیم اثبات کنیم که این برانامه برای همه
+مقادیر مثبت n پایان پذیر است. زمان زیادی است که هیچ‌کس نتواسنته /آن را
+اثبات یا رد کند! ( ببینید
+<a href="http://en.wikipedia.org/wiki/Collatz_conjecture">http://en.wikipedia.org/wiki/Collatz_conjecture</a>)</p>
+<p>برای تمرین ، تابع print_n از بخش 5.8 با تکرار بجای بازگشتی بازنویسی
+کنید.</p>
+<p>۷.۴ break</p>
+<p>بعضی اوقات تا زمانی که نیمه حلقه نرسیدید نمی‌دانید زمان آن است که حلقه
+پایان بپذیرد. در این مواقع شما می‌توانید برای خارج شدن از حلقه از دستور
+break استفاده کنید.</p>
+<p>برای مثال، فرض کنید، می خواهیداز کاربر تاز مانی که عبارت done را بنویسند
+مقدار بگیرید. شما می‌توانید بنویسید:</p>
+<p>while True:</p>
+<p>line = input( '&gt; ')</p>
+<p>if line == 'done' :</p>
+<p>break</p>
+<p>print (line )</p>
+<p>print('Done')</p>
+<p>شرط حلقه صحیح است که یعنی برای همیشه صحیح است، پس حلقه اجرا می‌شود تا
+زمانی که به گزاره break برخورد کند.</p>
+<p>هر زمان که اجرا می شود،‌ کاربر را با علامت براکت شکسته &lt; مواجه
+می‌سازد. اگر کاربر تایپ کند done، گزاره break ، برنامه را از حلقه خارج
+می سازد.در غیر این صورت برنامه هر چه را که کاربر تایپ نماید بازتاب
+می‌دهد و به ابتدای حلقه باز می گردد. اجرای ساده آن اینچنین است:</p>
+<p>&gt; not done</p>
+<p>not done</p>
+<p>&gt; done</p>
+<p>Done!</p>
+<p>این راه برای نوشتن حلقه های while معمول است زیرا شما می توایند در هر
+کجای حلقه ( نه فقط در ابتدا ) شرط را بررسی کنید و شما می‌توانید شرط
+پایانی را مثبت بیان کنید (“زمانی که اتفاق افتاد، متوقف شو ”) نسبت به
+بیان منفی (“ادامه بده تا زمانی که اتفاق بی افتد. ”)</p>
+<p>۷.۵ ریشه‌های دوم</p>
+<p>حلقه ها معمولاً در برنامه‌هایی استفاده می‌شوند که نتایج عددی را با نزدیک
+کردن جواب و تکرار آن محاسبه می‌کنند و بهبود می بخشند.</p>
+<p>برای مثال، یکی از راه‌های محاسبه ریشه دوم روش نیوتون است. فرض می‌کنیم که
+شما می‌خواهید تا ریشه دوم a را بدانید. با تقریباً هر تخمینی از (x) که
+شروع کنید با استفاده از فرمول زیر در هر مرحله به عدد بهتری می‌رسید.</p>
+<p>برای مثال، اگر a برابر ۴ باشد و x برابر ۳ :</p>
+<p>&gt;&gt;&gt; a = 4</p>
+<p>&gt;&gt;&gt; x = 3</p>
+<p>&gt;&gt;&gt; y = (x + a/x) / 2</p>
+<p>&gt;&gt;&gt; y</p>
+<p>2.16666666667</p>
+<p>نتیجه به جواب صحیح نزدیک‌تر می شود(رادیکال 4 = 2). اگر ما این روند را با
+مقدار تخمین جدید تکرار کنیم جواب نزدیک‌تری خواهیم یافت:</p>
+<p>&gt;&gt;&gt; x = y</p>
+<p>&gt;&gt;&gt; y = (x + a/x) / 2</p>
+<p>&gt;&gt;&gt; y</p>
+<p>2.00641025641</p>
+<p>بعد از چند بروزرسانی، تخمین نسبتاً دقیق است:</p>
+<p>&gt;&gt;&gt; x = y</p>
+<p>&gt;&gt;&gt; y = (x + a/x) / 2</p>
+<p>&gt;&gt;&gt; y</p>
+<p>2.0001024003</p>
+<p>&gt;&gt;&gt; x = y</p>
+<p>&gt;&gt;&gt; y = (x + a/x) / 2</p>
+<p>&gt;&gt;&gt; y</p>
+<p>2.00000000003</p>
+<p>به طور عمومی ما نمی‌دانیم چه تعداد گام رو به جلو برای رسیدن به جواب درست
+لازم است، اما می‌دانیم ه زمانی به آن می‌رسیم زیرا که تغییرات تخمین متوقف
+می‌شود:</p>
+<p>&gt;&gt;&gt; x = y</p>
+<p>&gt;&gt;&gt; y = (x + a/x) / 2</p>
+<p>&gt;&gt;&gt; y</p>
+<p>2.0</p>
+<p>&gt;&gt;&gt; x = y</p>
+<p>&gt;&gt;&gt; y = (x + a/x) / 2</p>
+<p>&gt;&gt;&gt; y</p>
+<p>2.0</p>
+<p>زمانی که y == x ، می‌توانیم توقف کنیم.اینجا یک حلقه است که با یک تخمین
+اولیه، x، و بهبود می‌یابد.تا زمانی که تغییرات متوقف شود:</p>
+<p>print(x)</p>
+<p>y = (x + a/x) / 2</p>
+<p>if y == x:</p>
+<p>break</p>
+<p>x = y</p>
+<p>[^4]: Infinite loop</p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../chapter-06/" title="فصل ششم" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  قبلی
+                </span>
+                فصل ششم
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../chapter-08/" title="فصل ۸" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  بعدی
+                </span>
+                فصل ۸
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
