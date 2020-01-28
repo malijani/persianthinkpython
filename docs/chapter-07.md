@@ -1,4 +1,4 @@
-فصل ۷
+# فصل ۷
 
 پیمایش
 
@@ -311,7 +311,7 @@ x = y
 
 [^1]: repetition
 
-[^2]: iteration.
+[^2]: iteration
 
 [^3]: loop
 

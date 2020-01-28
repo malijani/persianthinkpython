@@ -1,4 +1,4 @@
-########## <span id="anchor"></span>فصل ششم:
+# فصل ششم
 
 ########## توابع دارای خروجی (fruitful functions):
 
